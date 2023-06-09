@@ -15,7 +15,7 @@ export default function NavMenu() {
       </Link>
       <ul className="flex gap-4">
         <li>
-          <Link href="">About</Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
           <Link href="">Blog</Link>
