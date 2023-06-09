@@ -10,7 +10,7 @@ export default function NavMenu() {
           alt=""
           width={50}
           height={50}
-          className="w-56"
+          className="w-48"
         ></Image>
       </Link>
       <ul className="flex gap-4">
