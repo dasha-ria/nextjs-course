@@ -6,7 +6,7 @@ export default function NavMenu() {
     <nav className="flex justify-between p-10">
       <Link href="/">
         <Image
-          src="Nextspace.svg"
+          src="/Nextspace.svg"
           alt=""
           width={50}
           height={50}
