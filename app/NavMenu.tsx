@@ -23,7 +23,7 @@ export default function NavMenu() {
           <Link href="/blog">Blog</Link>
         </li>
         <li>
-          <Link href="/users">Users</Link>
+          <Link href={"/users"}>Users</Link>
         </li>
         <li>
           <SignInButton></SignInButton>

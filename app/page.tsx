@@ -5,9 +5,9 @@ import Image from "next/image";
 export default async function Home() {
   const session = await getServerSession();
 
-  if (!session) {
-    redirect("/api/auth/signin");
-  }
+  // if (!session) {
+  //   redirect("/api/auth/signin");
+  // }
 
   return (
     <div>
