@@ -10,8 +10,8 @@ export default async function Home() {
   // }
 
   return (
-    <div>
-      <p></p>
+    <div className="pl-10">
+      <p>Welcome to NEXTspace! This is the best social media since Facebook.</p>
     </div>
   );
 }

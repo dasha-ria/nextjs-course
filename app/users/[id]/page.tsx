@@ -17,14 +17,14 @@ export default async function UserProfile({ params }: Props) {
   const { name, bio, image } = user ?? {};
 
   return (
-    <div>
-      <h1>{name}</h1>
+    <div className="pl-10">
+      <h1 className="text-lg">{name}</h1>
       <img
+        className="mt-4"
         width={300}
         src={image ?? "/next.svg"}
         alt={`${name}'s profile`}
       ></img>
-      <h3>Bio</h3>
       <p>{bio}</p>
     </div>
   );
