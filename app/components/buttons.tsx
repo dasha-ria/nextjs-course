@@ -12,14 +12,16 @@ export function SignInButton() {
     return <>...</>;
   }
   if (status === "authenticated") {
-    <Link href="/dashboard">
-      <Image
-        src={session.user?.image ?? "/next.svg"}
-        alt="avatar"
-        width={32}
-        height={32}
-      ></Image>
-    </Link>;
+    return (
+      <Link href={`/dashboard`}>
+        <Image
+          src={session.user?.image ?? "/next.svg"}
+          alt="avatar"
+          width={32}
+          height={32}
+        ></Image>
+      </Link>
+    );
   }
 
   return <button onClick={() => signIn()}>Sign in</button>;
